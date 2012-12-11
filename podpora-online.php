@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
 Description: Online podpora pro českou komunitu. Naleznte zde překlady pluginů, šablon a mnoho dalšího.
-Version: 1.0
+Version: 1.1
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -23,22 +23,18 @@ add_action('admin_menu', 'VytvorMenu');
 function VytvorMenu(){
 add_menu_page('Aktuální novinky', 'Aktuální novinky', 'activate_plugins', 'uvod', 'ObsahAktualniNovinky',plugin_dir_url( __FILE__ )."/design/podpora.png" );
 add_submenu_page('uvod', 'Přeložené pluginy', 'Přeložené pluginy', 'activate_plugins', 'prelozene-pluginy', 'ObsahPrelozenePluginy',plugin_dir_url( __FILE__ )."/design/podpora.png" );
+add_submenu_page('uvod', 'Plánované změny', 'Plánované změny', 'activate_plugins', 'planovane-zmeny', 'ObsahPlanovaneZmeny');
 //add_submenu_page('uvod', 'Přeložené šablony', 'Přeložené šablony', 'activate_plugins', 'prelozene-sablony', 'ObsahPrelozeneSablony');
 //add_submenu_page('uvod', 'Kontatní formulář', 'Kontatní formulář', 'activate_plugins', 'kontaktni-formular', 'ObsahKontaktniFormular');
+//add_submenu_page('uvod', 'Chat online', 'Chat online', 'activate_plugins', 'chat-online', 'ObsahChatOnline');
 }
 
-function ObsahAktualniNovinky(){
-// obsah Aktualni novinky
-		?>
-<div id="primary" class="sidebar">
-<ul>
-	<li id="text-1" class="widget widget_text">
-	  <h3 class="widgettitle">Aktuální novinky</h3>
-		<div class="textwidget"><script id="feed-135498515220154" type="text/javascript" src="http://rss.bloople.net/?url=http%3A%2F%2Fwpguru.eu%2Ffeed%2F&showtitle=false&forceutf8=true&type=js&id=135498515220154"></script></div>
-	</li>               
-</ul>
-</div>
-		<?php
+// Obsah obsah Aktualni novinky
+function ObsahAktualniNovinky() {
+
+
+include 'posledni-novinky.php';
+
 }
 // Obsah Přeložené pluginy
 function ObsahPrelozenePluginy() {
@@ -61,6 +57,20 @@ function ObsahKontaktniFormular() {
 include 'kontaktni-formular.php';
 
 }
+// Obsah Chat online
+function ObsahChatOnline() {
+
+
+include 'chat-online.php';
+
+}
+// Obsah Plánované změny
+function ObsahPlanovaneZmeny() {
+
+
+include 'planovane-zmeny.php';
+
+}
 
 // spuštění
 PridatMenu();
@@ -79,7 +89,8 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<p><script id="feed-135498515220154" type="text/javascript" src="http://rss.bloople.net/?url=http%3A%2F%2Fwpguru.eu%2Ffeed%2F&showtitle=false&forceutf8=true&type=js&id=135498515220154"></script></p>
+			<h1>Registrace na wpguru.eu</h1>
+			<p><a href="http://wpguru.eu/wp-login.php?action=register" target="_blank">Zaregistrujte se</a> na našem webu <a href="http://wpguru.eu" target="_blank">WpGuru.eu</a> a získejte další užitečné rady a informace.</p>
 		</div>
 		<?php
 	}

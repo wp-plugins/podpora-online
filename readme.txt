@@ -34,11 +34,3 @@ Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http:/
 
 = 1.0 = 
 * Uvolnění pluginu.
-
-== Upgrade Notice ==
-
-= 1.1 = 
-* Přidaná nová stránka Plánované změny. Zde naleznte vždy informace o plánu dění. Přidán obrázek k pluignu na wordpress.org
-
-= 1.0 = 
-* Uvolnění pluginu.

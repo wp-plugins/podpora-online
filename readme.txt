@@ -3,7 +3,7 @@ Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: podpora, česká podpora, wordpress
 Requires at least: 3.0.0
-Tested up to: 3.4.2
+Tested up to: 3.5
 Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

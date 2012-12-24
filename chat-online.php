@@ -1,1 +1,0 @@
-<iframe height="673" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://podpora.wpguru.eu/chat/chat.html" title="Chat online"><a href="http://podpora.wpguru.eu/chat/chat.html" title="Online podpora">Chat online</a></iframe>

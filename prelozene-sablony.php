@@ -1,0 +1,1 @@
+<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://podpora.wpguru.eu/prelozene-sablony/" title="Online podpora"><a href="hhttp://podpora.wpguru.eu/prelozene-sablony/" title="Online podpora">Online podpora</a></iframe>

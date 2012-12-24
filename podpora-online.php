@@ -2,8 +2,8 @@
 /*
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
-Description: Online podpora pro českou komunitu. Naleznte zde překlady pluginů, šablon a mnoho dalšího.
-Version: 1.3.1
+Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
+Version: 1.4
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -23,10 +23,8 @@ add_action('admin_menu', 'VytvorMenu');
 function VytvorMenu(){
 add_menu_page('Aktuální novinky', 'Podpora online', 'activate_plugins', 'uvod', 'ObsahAktualniNovinky',plugin_dir_url( __FILE__ )."/design/podpora.png" );
 add_submenu_page('uvod', 'Přeložené pluginy', 'Přeložené pluginy', 'activate_plugins', 'prelozene-pluginy', 'ObsahPrelozenePluginy',plugin_dir_url( __FILE__ )."/design/podpora.png" );
-//add_submenu_page('uvod', 'Plánované změny', 'Plánované změny', 'activate_plugins', 'planovane-zmeny', 'ObsahPlanovaneZmeny');
-//add_submenu_page('uvod', 'Přeložené šablony', 'Přeložené šablony', 'activate_plugins', 'prelozene-sablony', 'ObsahPrelozeneSablony');
+add_submenu_page('uvod', 'Přeložené šablony', 'Přeložené šablony', 'activate_plugins', 'prelozene-sablony', 'ObsahPrelozeneSablony');
 add_submenu_page('uvod', 'Kontatní formulář', 'Kontatní formulář', 'activate_plugins', 'kontaktni-formular', 'ObsahKontaktniFormular');
-//add_submenu_page('uvod', 'Chat online', 'Chat online', 'activate_plugins', 'chat-online', 'ObsahChatOnline');
 add_submenu_page('uvod', 'Žádost překladu', 'Žádost překladu', 'activate_plugins', 'zadost-prekladu', 'ObsahZadostPrekladu');
 }
 
@@ -58,20 +56,6 @@ function ObsahKontaktniFormular() {
 include 'kontaktni-formular.php';
 
 }
-// Obsah Chat online
-function ObsahChatOnline() {
-
-
-include 'chat-online.php';
-
-}
-// Obsah Plánované změny
-function ObsahPlanovaneZmeny() {
-
-
-include 'planovane-zmeny.php';
-
-}
 // Obsah Žádost překladu
 function ObsahZadostPrekladu() {
 
@@ -97,8 +81,8 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<h1>Registrace na wpguru.eu</h1>
-			<p><a href="http://wpguru.eu/wp-login.php?action=register" target="_blank">Zaregistrujte se</a> na našem webu <a href="http://wpguru.eu" target="_blank">WpGuru.eu</a> a získejte další užitečné rady a informace.</p>
+			<h1>Nedostupnost wpguru.eu</h1>
+			<p>Připravueme novou verzi webu a proto Vás chcete informovat o nedostupnosti webu. Pokud budeme mít jakýkoliv dokaz, použijte prosím kontaktní formulář v pluginu.</p>
 		</div>
 		<?php
 	}

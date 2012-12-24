@@ -1,1 +1,1 @@
-<iframe height="673" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://webform.expres-web.cz/embed.php?id=23" title="Online podpora"><a href="http://webform.expres-web.cz/view.php?id=23" title="Online podpora">Online podpora</a></iframe>
+<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://podpora.wpguru.eu/online-podpora/" title="Online podpora"><a href="http://podpora.wpguru.eu/online-podpora/" title="Online podpora">Online podpora</a></iframe>

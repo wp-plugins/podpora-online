@@ -21,6 +21,7 @@ Naleznete zde již přeložené:
 * Subscribe2 čeština
 * Connections čeština
 * Podpora online
+* Paid Memberships Pro čeština ( nově )
 
 
 == Installation ==
@@ -41,6 +42,7 @@ Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http:/
 
 = 1.5 = 
 * Obnovení downloadu
+* Nový překald: Paid Memberships Pro čeština
 
 = 1.4 = 
 * Změna vzhledu

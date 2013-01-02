@@ -18,7 +18,6 @@ Naleznete zde již přeložené:
 * Shortcodes Ultimate překlad
 * Subscribe2 čeština
 * WooCommerce čeština
-* Subscribe2 čeština
 * Connections čeština
 * Podpora online
 * Paid Memberships Pro čeština ( nově )

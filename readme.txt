@@ -15,11 +15,12 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a
 Naleznete zde již přeložené:
 
 * Čeština buddypress
+* Shortcodes Ultimate překlad
+* Subscribe2 čeština
 * WooCommerce čeština
 * Subscribe2 čeština
 * Connections čeština
-* Sidebar Login česky
-* Shortcodes Ultimate překlad
+* Podpora online
 
 
 == Installation ==

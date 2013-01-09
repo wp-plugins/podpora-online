@@ -1,7 +1,7 @@
 ﻿=== Podpora online ===
 Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
-Tags: podpora, česká podpora, wordpress, buddypress čeština, WP-Members čeština, Shortcodes Ultimate překlad, WooCommerce čeština, Multisite překlad, Subscribe2 čeština, Connections čeština, Sidebar Login česky
+Tags: podpora, čeština, češtiny, překlad, překlady, česká podpora, wordpress, buddypress Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints
 Requires at least: 3.0.0
 Tested up to: 3.5
 Stable tag: 1.6b

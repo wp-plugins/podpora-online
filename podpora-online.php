@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 1.5
+Version: 1.6b
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -87,6 +87,8 @@ PridatMenu();
 		<?php
 	}
 	/**********   Konec definice funkcí   **********/
+
+
 
 
 	// Spuštění funkce pro přidání CSS souboru do administrace

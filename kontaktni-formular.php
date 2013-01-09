@@ -1,1 +1,1 @@
-<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://preklady.wpguru.eu/online-podpora/" title="Online podpora"><a href="http://preklady.wpguru.eu/online-podpora/" title="Online podpora">Online podpora</a></iframe>
+<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://podpora.wpguru.eu/online-podpora/" title="Online podpora"><a href="http://podpora.wpguru.eu/online-podpora/" title="Online podpora">Online podpora</a></iframe>

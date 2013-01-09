@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, česká podpora, wordpress, buddypress čeština, WP-Members čeština, Shortcodes Ultimate překlad, WooCommerce čeština, Multisite překlad, Subscribe2 čeština, Connections čeština, Sidebar Login česky
 Requires at least: 3.0.0
 Tested up to: 3.5
-Stable tag: 1.5
+Stable tag: 1.6b
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,8 @@ Naleznete zde již přeložené:
 * WooCommerce čeština
 * Connections čeština
 * Podpora online
-* Paid Memberships Pro čeština ( nově )
+* Paid Memberships Pro čeština
+* CubePoints čeština  ( nově )
 
 
 == Installation ==
@@ -38,6 +39,11 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http://wpguru.eu/forum/?mingleforumaction=viewforum&f=14.0)
 
 == Changelog ==
+
+= 1.6b = 
+* Oprava načítání
+* Nový překald: CubePoints čeština
+* Přípravy na kompletní rekonstrukci
 
 = 1.5 = 
 * Obnovení downloadu

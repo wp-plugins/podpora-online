@@ -42,7 +42,7 @@ Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http:/
 
 = 1.6b = 
 * Oprava načítání
-* Nový překald: CubePoints čeština
+* Nový překlad: CubePoints čeština
 * Přípravy na kompletní rekonstrukci
 
 = 1.5 = 

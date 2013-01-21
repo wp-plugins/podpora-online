@@ -1,0 +1,1 @@
+<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://podpora.wpguru.eu/buddypress-preklad/" title="BuddyPress překlad"><a href="http://podpora.wpguru.eu/buddypress-preklad/" title="BuddyPress překlad">BuddyPress překlad</a></iframe>

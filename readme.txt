@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints
 Requires at least: 3.0.0
 Tested up to: 3.5
-Stable tag: 1.6b
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,15 +30,22 @@ Naleznete zde již přeložené:
 1. Activujte plugin.
 
 == Screenshots ==
-Coming soon
+
+1. Náhled na rozložení menu
+2. Náhled na rozbalené menu
+3. Náhled na obsah
 
 == Frequently Asked Questions ==
 
 Našel jsem chybu, co mám dělat?
 
-Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http://wpguru.eu/forum/?mingleforumaction=viewforum&f=14.0)
+Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 1.7 = 
+* Kompletní změna struktůry.
+* Každý plugin je zobrazen zvlášť
 
 = 1.6b = 
 * Oprava načítání

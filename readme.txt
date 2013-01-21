@@ -30,7 +30,10 @@ Naleznete zde již přeložené:
 1. Activujte plugin.
 
 == Screenshots ==
-Coming soon
+
+1. Náhled na rozložení menu
+2. Náhled na rozbalené menu
+3. Náhled na obsah
 
 == Frequently Asked Questions ==
 

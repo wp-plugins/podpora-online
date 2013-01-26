@@ -49,8 +49,7 @@ Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
 
-= 1.7 = 
-* Pro verzi 3.5.1
+= 1.8 = 
 * Přidan nový překlad šablony: WooThemes – SupportPress
 
 = 1.7 = 

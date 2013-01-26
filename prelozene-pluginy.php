@@ -1,1 +1,0 @@
-<iframe height="815" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" src="http://podpora.wpguru.eu/prelozene-pluginy/" title="Online podpora"><a href="http://podpora.wpguru.eu/prelozene-pluginy/" title="Online podpora">Online podpora</a></iframe>

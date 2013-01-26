@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 1.7
+Version: 1.8
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -124,7 +124,8 @@ include 'pluginy/cubepoints.php';
 add_action('admin_menu', 'sablony_menu');
 function sablony_menu(){
 add_menu_page('Novinky u překladu šablon', 'Překlady šablon', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
-add_submenu_page('preklady_sablony', 'Šablona Vantage', 'Šablona Vantage', 'activate_plugins', 'sablona-vantage', 'ObsahVantageSablona');  
+add_submenu_page('preklady_sablony', 'Šablona Vantage', 'Šablona Vantage', 'activate_plugins', 'sablona-vantage', 'ObsahVantageSablona');
+add_submenu_page('preklady_sablony', 'Šablona SupportPress', 'Šablona SupportPress', 'activate_plugins', 'sablona-supportpress', 'ObsahSupportPressSablona');
 }
 
 // Obsah Překlady šablon
@@ -139,6 +140,13 @@ function ObsahVantageSablona() {
 
 
 include 'sablony/vantage.php';
+
+}
+// Obsah Šablona SupportPress
+function ObsahSupportPressSablona() {
+
+
+include 'sablony/supportpress.php';
 
 }
 
@@ -162,10 +170,11 @@ PridatMenu();
 			<h1>Novinky</h1>
             <p>- Vytvořte si členství na <a href="http://www.wpguru.eu" target="_blank">www.wpguru.eu</a> a získejte zdarma další výhody na víc.</p>
             <p>Každý plugin a šablona jsou zobrazny zvlášť. Menu naleznete na levé dolní straně.</p>
-            <p><strong>Nejnovější plugin:</strong></p>
+            <p><strong>3 nejnovější pluginy:</strong></p>
             <p>- <a href="/wp-admin/admin.php?page=cubepoints-preklad">CubePoints</a></p>
-            <p><strong>Nejnovější šablona:</strong></p>
-            <p>- <a href="/wp-admin/admin.php?page=sablona-vantage">Ventage</a></p>
+            <p><strong>3 nejnovější šablony:</strong></p>
+            <p>- <a href="/wp-admin/admin.php?page=sablona-supportpress">SupportPress</a><br />
+            - <a href="/wp-admin/admin.php?page=sablona-vantage">Ventage</a>            </p>
 		</div>
 		<?php
 	}

@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints
 Requires at least: 3.0.0
 Tested up to: 3.5
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,8 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a
 
 Naleznete zde již přeložené:
 
+Pluginy:
+
 * Čeština buddypress
 * Shortcodes Ultimate překlad
 * Subscribe2 čeština
@@ -21,8 +23,12 @@ Naleznete zde již přeložené:
 * Connections čeština
 * Podpora online
 * Paid Memberships Pro čeština
-* CubePoints čeština  ( nově )
+* CubePoints čeština  (nově)
 
+Šablony:
+
+* AppThemes – VANTAGE
+* WooThemes – SupportPress (nově)
 
 == Installation ==
 
@@ -42,6 +48,10 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 1.7 = 
+* Pro verzi 3.5.1
+* Přidan nový překlad šablony: WooThemes – SupportPress
 
 = 1.7 = 
 * Kompletní změna struktůry.

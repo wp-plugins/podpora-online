@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 1.9
+Version: 2.0
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -52,7 +52,7 @@ include 'zadost-prekladu.php';
 
 add_action('admin_menu', 'pluginy_menu');
 function pluginy_menu(){
-add_menu_page('Žádost o překlad', 'Překlady pluginů', 'activate_plugins', 'preklady_pluginu', 'ObsahPrekladyPluginu',plugin_dir_url( __FILE__ )."/design/plugin.png" );
+add_menu_page('Žádost o překlad pluginu', 'Překlady pluginů', 'activate_plugins', 'preklady_pluginu', 'ObsahPrekladyPluginu',plugin_dir_url( __FILE__ )."/design/plugin.png" );
 add_submenu_page('preklady_pluginu', 'BuddyPress Překlady', 'BuddyPress', 'activate_plugins', 'buddypress-preklad', 'ObsahBuddyPress');
 add_submenu_page('preklady_pluginu', 'Shortcodes Ultimate čeština', 'Shortcodes Ultimate', 'activate_plugins', 'shortcode-ultimate-preklad', 'ObsahShortcodesUltimate');
 add_submenu_page('preklady_pluginu', 'Subscribe2 čeština', 'Subscribe2', 'activate_plugins', 'Subscribe2-preklad', 'ObsahSubscribe2');
@@ -132,7 +132,7 @@ include 'pluginy/gd-star-rating.php';
 
 add_action('admin_menu', 'sablony_menu');
 function sablony_menu(){
-add_menu_page('Novinky u překladu šablon', 'Překlady šablon', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
+add_menu_page('Žádost o překlad šablon', 'Překlady šablon', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
 add_submenu_page('preklady_sablony', 'Šablona Vantage', 'Šablona Vantage', 'activate_plugins', 'sablona-vantage', 'ObsahVantageSablona');
 add_submenu_page('preklady_sablony', 'Šablona SupportPress', 'Šablona SupportPress', 'activate_plugins', 'sablona-supportpress', 'ObsahSupportPressSablona');
 }
@@ -159,6 +159,36 @@ include 'sablony/supportpress.php';
 
 }
 
+	/**********  Vytvoreni menu eshop **********/
+	
+add_action('admin_menu', 'eshop_menu');
+function eshop_menu(){
+add_menu_page('Eshop', 'Eshop', 'activate_plugins', 'eshop_start', 'ObsahEshop',plugin_dir_url( __FILE__ )."/design/eshop.png" );
+}
+
+// Obsah eshop
+function ObsahEshop() {
+
+
+include 'eshop/start.php';
+
+}
+
+	/**********  Vytvoreni menu anktea **********/
+	
+add_action('admin_menu', 'anketa_menu');
+function anketa_menu(){
+add_menu_page('Anketa', 'Anketa', 'activate_plugins', 'anketa', 'ObsahAnketa',plugin_dir_url( __FILE__ )."/design/anketa.png" );
+}
+
+// Obsah eshop
+function ObsahAnketa() {
+
+
+include 'anketa.php';
+
+}
+
 // spuštění
 PridatMenu();
 
@@ -176,19 +206,29 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<h1>Novinky</h1>
-			<p><a href='http://wpguru.eu?ref=admin-63'>
-<img src='http://wpguru.eu/wp-content/uploads/2012/03/logo.png' alt='Wordpress Guru' title='Check out Wordpress Guru' />
-</a></p>
-            <p>- Vytvořte si členství na <a href="http://www.wpguru.eu" target="_blank">www.wpguru.eu</a> a získejte zdarma další výhody na víc.</p>
-            <p>Každý plugin a šablona jsou zobrazny zvlášť. Menu naleznete na levé dolní straně.</p>
-            <p>SLEVOVÝ KUPÓN: <strong>AKCEPO2013</strong></p>
-            <p><strong>3 nejnovější pluginy:</strong></p>
-            <p>- <a href="/wp-admin/admin.php?page=gd-star-rating-preklad">GD Star Rating</a><br />
-            - <a href="/wp-admin/admin.php?page=cubepoints-preklad">CubePoints</a></p>
-            <p><strong>3 nejnovější šablony:</strong></p>
-            <p>- <a href="/wp-admin/admin.php?page=sablona-supportpress">SupportPress</a><br />
-            - <a href="/wp-admin/admin.php?page=sablona-vantage">Ventage</a>            </p>
+			<h1>Info</h1>
+		  <h1><a href='http://wpguru.eu?ref=admin-63'><img src='http://wpguru.eu/wp-content/uploads/2012/03/logo.png' alt='Wordpress Guru' title='Check out Wordpress Guru' /></a></h1>
+			<table width="100%" border="0" cellspacing="3" cellpadding="3">
+			  <tr>
+			    <td><p>Vytvořte si členství na <a href="http://www.wpguru.eu" target="_blank">www.wpguru.eu</a> a získejte zdarma další výhody na víc.</p>
+                <p>Každý plugin a šablona jsou zobrazny zvlášť. Menu naleznete na levé dolní straně.</p></td>
+			    <td>SLEVOVÝ KUPÓN: <strong>AKCEPO2013</strong></td>
+		      </tr>
+			  <tr>
+			    <td><p><strong>2 nejnovější pluginy:</strong></p>
+                  <p>- <a href="/wp-admin/admin.php?page=gd-star-rating-preklad">GD Star Rating</a><br />
+                - <a href="/wp-admin/admin.php?page=cubepoints-preklad">CubePoints</a></p></td>
+			    <td><p><strong>2 nejnovější šablony:</strong></p>
+                  <p>- <a href="/wp-admin/admin.php?page=sablona-supportpress">SupportPress</a><br />
+                - <a href="/wp-admin/admin.php?page=sablona-vantage">Ventage</a></p></td>
+		      </tr>
+			  <tr>
+			    <td><p><strong>Eshop</strong></p>
+		        <p>Nyní si můžerte prohlédnout také nově vloženy eshop na <a href="/wp-admin/admin.php?page=eshop_start">tomto odkazu</a>.</p></td>
+			    <td><p><strong>Anketa</strong></p>
+		        <p>Hlasujte v anketě o překlady. Aketu naleznete <a href="/wp-admin/admin.php?page=anketa">zde</a></p></td>
+		      </tr>
+	      </table>
 		</div>
 		<?php
 	}

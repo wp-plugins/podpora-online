@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wpguru.eu
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.0
+Version: 2.1
 Author: expres-web
 Author URI: http://www.expres-web.cz
 License: GPLv2 or later
@@ -61,6 +61,7 @@ add_submenu_page('preklady_pluginu', 'Connections čeština', 'Connections', 'ac
 add_submenu_page('preklady_pluginu', 'Paid Memberships Pro čeština', 'Paid Memberships Pro', 'activate_plugins', 'paid-memberships-pro-preklad', 'ObsahPaidMembershipsPro');
 add_submenu_page('preklady_pluginu', 'CubePoints čeština', 'CubePoints', 'activate_plugins', 'cubepoints-preklad', 'ObsahCubePoints');
 add_submenu_page('preklady_pluginu', 'GD Star Rating čeština', 'GD Star Rating', 'activate_plugins', 'gd-star-rating-preklad', 'ObsahGDStarRating');
+add_submenu_page('preklady_pluginu', 'WPtouch čeština', 'WPtouch', 'activate_plugins', 'wptouch-preklad', 'ObsahWPtouch');
 }
 
 // Obsah Překlady pluginů
@@ -124,6 +125,13 @@ function ObsahGDStarRating() {
 
 
 include 'pluginy/gd-star-rating.php';
+
+}
+// Obsah WPtouch
+function ObsahWPtouch() {
+
+
+include 'pluginy/wptouch.php';
 
 }
 
@@ -212,12 +220,12 @@ PridatMenu();
 			  <tr>
 			    <td><p>Vytvořte si členství na <a href="http://www.wpguru.eu" target="_blank">www.wpguru.eu</a> a získejte zdarma další výhody na víc.</p>
                 <p>Každý plugin a šablona jsou zobrazny zvlášť. Menu naleznete na levé dolní straně.</p></td>
-			    <td>SLEVOVÝ KUPÓN: <strong>AKCEPO2013</strong></td>
+			    <td><p>SLEVOVÝ KUPÓN: <strong>AKCEPO2013</strong></p></td>
 		      </tr>
 			  <tr>
 			    <td><p><strong>2 nejnovější pluginy:</strong></p>
-                  <p>- <a href="/wp-admin/admin.php?page=gd-star-rating-preklad">GD Star Rating</a><br />
-                - <a href="/wp-admin/admin.php?page=cubepoints-preklad">CubePoints</a></p></td>
+                  <p>- <a href="/wp-admin/admin.php?page=wptouch-preklad">WPtouch</a><br />
+                - <a href="/wp-admin/admin.php?page=gd-star-rating-preklad">GD Star Rating</a></p></td>
 			    <td><p><strong>2 nejnovější šablony:</strong></p>
                   <p>- <a href="/wp-admin/admin.php?page=sablona-supportpress">SupportPress</a><br />
                 - <a href="/wp-admin/admin.php?page=sablona-vantage">Ventage</a></p></td>

@@ -1,103 +1,106 @@
-ï»¿=== Podpora online ===
-Contributors: expres-web
+=== Podpora online ===
+Contributors: Wick.cz
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
-Tags: podpora, ÄeÅ¡tina, ÄeÅ¡tiny, pÅ™eklad, pÅ™eklady, ÄeskÃ¡ podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch ÄeÅ¡tina, GD Star Rating, GD Star Rating ÄeÅ¡tina
+Tags: podpora, ?eština, ?eštiny, p?eklad, p?eklady, ?eská podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch ?eština, GD Star Rating, GD Star Rating ?eština
 Requires at least: 3.0.0
-Tested up to: 3.5
-Stable tag: 2.1
+Tested up to: 4.1
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Online podpora pro Äeskou komunitu. Naleznete zde pÅ™eklady pluginÅ¯, Å¡ablon a mnoho dalÅ¡Ã­ho.
+Online podpora pro ?eskou komunitu. Naleznete zde p?eklady plugin?, šablon a mnoho dalšího.
 
-Naleznete zde jiÅ¾ pÅ™eloÅ¾enÃ©:
+Naleznete zde ji p?eloené:
 
 Pluginy:
 
-* ÄŒeÅ¡tina buddypress
-* Shortcodes Ultimate pÅ™eklad
-* Subscribe2 ÄeÅ¡tina
-* WooCommerce ÄeÅ¡tina
-* Connections ÄeÅ¡tina
+* ?eština buddypress
+* Shortcodes Ultimate p?eklad
+* Subscribe2 ?eština
+* WooCommerce ?eština
+* Connections ?eština
 * Podpora online
-* Paid Memberships Pro ÄeÅ¡tina
-* CubePoints ÄeÅ¡tina
+* Paid Memberships Pro ?eština
+* CubePoints ?eština
 * GD Star Rating
-* WPtouch (novÄ›)
+* WPtouch (nov?)
 
-Å ablony:
+Šablony:
 
-* AppThemes â€“ VANTAGE
-* WooThemes â€“ SupportPress (novÄ›)
+* AppThemes – VANTAGE
+* WooThemes – SupportPress (nov?)
 
 == Installation ==
 
-1. Nainstalujte plugin pÅ™es administraci v Pluginy.
+1. Nainstalujte plugin p?es administraci v Pluginy.
 1. Activujte plugin.
 
 == Screenshots ==
 
-1. NÃ¡hled na rozloÅ¾enÃ­ menu
-2. NÃ¡hled na rozbalenÃ© menu
-3. NÃ¡hled na obsah
-4. NÃ¡hled zobrazenÃ­ slevovÃ©ho kupÃ³nu
-5. PoslednÃ­ novinky
+1. Náhled na rozloení menu
+2. Náhled na rozbalené menu
+3. Náhled na obsah
+4. Náhled zobrazení slevového kupónu
+5. Poslední novinky
 
 == Frequently Asked Questions ==
 
-NaÅ¡el jsem chybu, co mÃ¡m dÄ›lat?
+Našel jsem chybu, co mám d?lat?
 
-Pokud naleznete chybu, zdÄ›lte nÃ¡m to prosÃ­m.
+Pokud naleznete chybu, zd?lte nám to prosím.
 
 == Changelog ==
 
+= 2.2 = 
+* P?íiprava na obnovení pluginu
+
 = 2.1 = 
-* PÅ™idan novÃ½ pÅ™eklad pluginu: WPtouch
+* P?idan novı p?eklad pluginu: WPtouch
 
 = 2.0 = 
 * Upraven obsah downloadu
-* PÅ™idana anketa
-* PridÃ¡n eshop
-* OdstranÄ›na verze 1.6b
+* P?idana anketa
+* Pridán eshop
+* Odstran?na verze 1.6b
 
 = 1.9 = 
-* PÅ™idan novÃ½ pÅ™eklad pluginu: GD Star Rating
-* Grafiky upravenÃ© poslednÃ­ novinky
+* P?idan novı p?eklad pluginu: GD Star Rating
+* Grafiky upravené poslední novinky
 
 = 1.8 = 
-* PÅ™idan novÃ½ pÅ™eklad Å¡ablony: WooThemes â€“ SupportPress
+* P?idan novı p?eklad šablony: WooThemes – SupportPress
 
 = 1.7 = 
-* KompletnÃ­ zmÄ›na struktÅ¯ry.
-* KaÅ¾dÃ½ plugin je zobrazen zvlÃ¡Å¡Å¥
+* Kompletní zm?na strukt?ry.
+* Kadı plugin je zobrazen zvláš?
 
 = 1.6b = 
-* Oprava naÄÃ­tÃ¡nÃ­
-* NovÃ½ pÅ™eklad: CubePoints ÄeÅ¡tina
-* PÅ™Ã­pravy na kompletnÃ­ rekonstrukci
+* Oprava na?ítání
+* Novı p?eklad: CubePoints ?eština
+* P?ípravy na kompletní rekonstrukci
 
 = 1.5 = 
-* ObnovenÃ­ downloadu
-* NovÃ½ pÅ™ekald: Paid Memberships Pro ÄeÅ¡tina
+* Obnovení downloadu
+* Novı p?ekald: Paid Memberships Pro ?eština
 
 = 1.4 = 
-* ZmÄ›na vzhledu
-* VylepÅ¡enÃ© formulÃ¡Å™e
-* PÅ™idÃ¡ny pÅ™eklady Å¡ablon
+* Zm?na vzhledu
+* Vylepšené formulá?e
+* P?idány p?eklady šablon
 
 = 1.3.1 = 
-* ZmÄ›na uspoÅ™Ã¡dÃ¡nÃ­ menu
+* Zm?na uspo?ádání menu
 
 = 1.3 = 
-* Å½Ã¡dosti o pÅ™eklad. UpravenÃ¡ strÃ¡nka pÅ™eloÅ¾enÃ© pluginy.
+* ádosti o p?eklad. Upravená stránka p?eloené pluginy.
 
 = 1.2 = 
-* PÅ™idÃ¡n formulÃ¡Å™. OtestovÃ¡no na WordPress verzi 3.5
+* P?idán formulá?. Otestováno na WordPress verzi 3.5
 
 = 1.1 = 
-* PÅ™idanÃ¡ novÃ¡ podstrÃ¡nka
+* P?idaná nová podstránka
 
 = 1.0 = 
-* UvolnÄ›nÃ­ pluginu.
+* Uvoln?ní pluginu.

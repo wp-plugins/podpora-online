@@ -1,6 +1,6 @@
 <h2>Poslední novinky</h2>
-<a href='http://wpguru.eu?ref=admin-63'>
-<img src='http://wpguru.eu/wp-content/uploads/2012/03/logo.png' alt='Wordpress Guru' title='Check out Wordpress Guru' />
+<a href='http://wick.cz/'>
+<img src='http://wick.cz/wp-content/uploads/2014/07/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
 </a>
   
 <div class="postbox gdrgrid frontleft">
@@ -13,7 +13,7 @@
         <?php
 
         if ($options['news_feed_active'] == 0) {
-            $feed = fetch_feed('http://wpguru.eu/feed/');
+            $feed = fetch_feed('http://wick.cz/feed/');
                 if (!is_wp_error( $feed )) {
                     $items = $feed->get_items(0, 7);
                     if (! empty($items)) {

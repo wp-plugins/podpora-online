@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wick.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.2
+Version: 2.3
 Author: Wick.cz
 Author URI: http://wick.cz
 License: GPLv2 or later
@@ -32,7 +32,7 @@ add_submenu_page('uvod', 'Žádost překladu', 'Žádost překladu', 'activate_p
 function ObsahAktualniNovinky() {
 
 
-include 'docasne/pripravujeme.php';
+include 'posledni-novinky.php';
 
 }
 // Obsah Prelozene pluginy
@@ -42,18 +42,25 @@ function ObsahPrelozenepluginy() {
 include 'docasne/pripravujeme.php';
 
 }
+// Obsah Prelozene šablony
+function ObsahObsahPrelozeneSablony() {
+
+
+include 'docasne/pripravujeme.php';
+
+}
 // Obsah Kontaktní fomulář
 function ObsahKontaktniFormular() {
 
 
-include 'docasne/pripravujeme.php';
+include 'kontaktni-formular.php';
 
 }
 // Obsah Žádost překladu
 function ObsahZadostPrekladu() {
 
 
-include 'docasne/pripravujeme.php';
+include 'zadost-prekladu.php';
 
 }
 // spuštění
@@ -73,15 +80,21 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<h1>Info</h1>
-		  <h1><a href='http://wick.cz/'>
-<img src='http://wick.cz/wp-content/uploads/2014/07/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
-</a></h1>
+			<h1><a href='http://wick.cz/'><img src='http://podpora.wick.cz/wp-content/uploads/2015/03/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' /></a><br />
+		    Poslední změny			</h1>
 			<table width="100%" border="0" cellspacing="3" cellpadding="3">
 			  <tr>
-			    <td><p>Připravujeme obnovu tohoto pluginu... </p>
-		        <p>Vše zůstává zcela zdarma</p></td>
-	      </table>
+			    <td><p>1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...</p></td>
+			    <td><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Plugin - Widget -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8881781121147805"
+     data-ad-slot="8064222011"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></td>
+          </table>
 		</div>
 		<?php
 	}

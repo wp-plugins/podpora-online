@@ -1,106 +1,110 @@
 === Podpora online ===
-Contributors: Wick.cz
+Contributors: expres-web, wick.cz
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
-Tags: podpora, ?eština, ?eštiny, p?eklad, p?eklady, ?eská podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch ?eština, GD Star Rating, GD Star Rating ?eština
+Tags: podpora, ÄeÅ¡tina, ÄeÅ¡tiny, pÅ™eklad, pÅ™eklady, ÄeskÃ¡ podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch ÄeÅ¡tina, GD Star Rating, GD Star Rating ÄeÅ¡tina
 Requires at least: 3.0.0
 Tested up to: 4.1
-Stable tag: 2.2
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Online podpora pro ?eskou komunitu. Naleznete zde p?eklady plugin?, šablon a mnoho dalšího.
+Online podpora pro Äeskou komunitu. Naleznete zde pÅ™eklady pluginÅ¯, Å¡ablon a mnoho dalÅ¡Ã­ho.
 
-Naleznete zde ji p?eloené:
+Naleznete zde jiÅ¾ pÅ™eloÅ¾enÃ©:
 
 Pluginy:
 
-* ?eština buddypress
-* Shortcodes Ultimate p?eklad
-* Subscribe2 ?eština
-* WooCommerce ?eština
-* Connections ?eština
+* ÄŒeÅ¡tina buddypress
+* Shortcodes Ultimate pÅ™eklad
+* Subscribe2 ÄeÅ¡tina
+* WooCommerce ÄeÅ¡tina
+* Connections ÄeÅ¡tina
 * Podpora online
-* Paid Memberships Pro ?eština
-* CubePoints ?eština
+* Paid Memberships Pro ÄeÅ¡tina
+* CubePoints ÄeÅ¡tina
 * GD Star Rating
-* WPtouch (nov?)
+* WPtouch (novÄ›)
 
-Šablony:
+Å ablony:
 
-* AppThemes – VANTAGE
-* WooThemes – SupportPress (nov?)
+* AppThemes â€“ VANTAGE
+* WooThemes â€“ SupportPress (novÄ›)
 
 == Installation ==
 
-1. Nainstalujte plugin p?es administraci v Pluginy.
+1. Nainstalujte plugin pÅ™es administraci v Pluginy.
 1. Activujte plugin.
 
 == Screenshots ==
 
-1. Náhled na rozloení menu
-2. Náhled na rozbalené menu
-3. Náhled na obsah
-4. Náhled zobrazení slevového kupónu
-5. Poslední novinky
+1. NÃ¡hled na rozloÅ¾enÃ­ menu
+2. NÃ¡hled na rozbalenÃ© menu
+3. NÃ¡hled na obsah
+4. NÃ¡hled zobrazenÃ­ slevovÃ©ho kupÃ³nu
+5. PoslednÃ­ novinky
 
 == Frequently Asked Questions ==
 
-Našel jsem chybu, co mám d?lat?
+NaÅ¡el jsem chybu, co mÃ¡m dÄ›lat?
 
-Pokud naleznete chybu, zd?lte nám to prosím.
+Pokud naleznete chybu, zdÄ›lte nÃ¡m to prosÃ­m.
 
 == Changelog ==
 
-= 2.2 = 
-* P?íiprava na obnovení pluginu
+= 2.3 = 
+* MoÅ¾nost odeslat Å¾Ã¡dost na pÅ™ekald
+* MoÅ¾nost kontaktovat tÃ½m
 
+= 2.2 = 
+* PÅ™Ã­prava obnovenÃ­ pluginu
+ 
 = 2.1 = 
-* P?idan novı p?eklad pluginu: WPtouch
+* PÅ™idan novÃ½ pÅ™eklad pluginu: WPtouch
 
 = 2.0 = 
 * Upraven obsah downloadu
-* P?idana anketa
-* Pridán eshop
-* Odstran?na verze 1.6b
+* PÅ™idana anketa
+* PridÃ¡n eshop
+* OdstranÄ›na verze 1.6b
 
 = 1.9 = 
-* P?idan novı p?eklad pluginu: GD Star Rating
-* Grafiky upravené poslední novinky
+* PÅ™idan novÃ½ pÅ™eklad pluginu: GD Star Rating
+* Grafiky upravenÃ© poslednÃ­ novinky
 
 = 1.8 = 
-* P?idan novı p?eklad šablony: WooThemes – SupportPress
+* PÅ™idan novÃ½ pÅ™eklad Å¡ablony: WooThemes â€“ SupportPress
 
 = 1.7 = 
-* Kompletní zm?na strukt?ry.
-* Kadı plugin je zobrazen zvláš?
+* KompletnÃ­ zmÄ›na struktÅ¯ry.
+* KaÅ¾dÃ½ plugin je zobrazen zvlÃ¡Å¡Å¥
 
 = 1.6b = 
-* Oprava na?ítání
-* Novı p?eklad: CubePoints ?eština
-* P?ípravy na kompletní rekonstrukci
+* Oprava naÄÃ­tÃ¡nÃ­
+* NovÃ½ pÅ™eklad: CubePoints ÄeÅ¡tina
+* PÅ™Ã­pravy na kompletnÃ­ rekonstrukci
 
 = 1.5 = 
-* Obnovení downloadu
-* Novı p?ekald: Paid Memberships Pro ?eština
+* ObnovenÃ­ downloadu
+* NovÃ½ pÅ™ekald: Paid Memberships Pro ÄeÅ¡tina
 
 = 1.4 = 
-* Zm?na vzhledu
-* Vylepšené formulá?e
-* P?idány p?eklady šablon
+* ZmÄ›na vzhledu
+* VylepÅ¡enÃ© formulÃ¡Å™e
+* PÅ™idÃ¡ny pÅ™eklady Å¡ablon
 
 = 1.3.1 = 
-* Zm?na uspo?ádání menu
+* ZmÄ›na uspoÅ™Ã¡dÃ¡nÃ­ menu
 
 = 1.3 = 
-* ádosti o p?eklad. Upravená stránka p?eloené pluginy.
+* Å½Ã¡dosti o pÅ™eklad. UpravenÃ¡ strÃ¡nka pÅ™eloÅ¾enÃ© pluginy.
 
 = 1.2 = 
-* P?idán formulá?. Otestováno na WordPress verzi 3.5
+* PÅ™idÃ¡n formulÃ¡Å™. OtestovÃ¡no na WordPress verzi 3.5
 
 = 1.1 = 
-* P?idaná nová podstránka
+* PÅ™idanÃ¡ novÃ¡ podstrÃ¡nka
 
 = 1.0 = 
-* Uvoln?ní pluginu.
+* UvolnÄ›nÃ­ pluginu.

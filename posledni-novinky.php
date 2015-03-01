@@ -1,19 +1,19 @@
 <h2>Poslední novinky</h2>
 <a href='http://wick.cz/'>
-<img src='http://wick.cz/wp-content/uploads/2014/07/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
+<img src='http://podpora.wick.cz/wp-content/uploads/2015/03/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
 </a>
   
 <div class="postbox gdrgrid frontleft">
         <small style="float: right; margin-right:6px; margin-top:6px;">
-            <a target="_blank" href="http://wpguru.eu/blog/">Zobrazit vše</a> | <a href="http://wpguru.eu/feed/" target="_blank">RSS</a>
+
         </small>
-  <h3 class="hndle"><span>Poslední novinky a články</span></h3>
+  <h3 class="hndle"><span>Poslední novinky</span></h3>
         <div class="gdsrclear"></div>
     <div class="inside">
         <?php
 
         if ($options['news_feed_active'] == 0) {
-            $feed = fetch_feed('http://wick.cz/feed/');
+            $feed = fetch_feed('http://podpora.wick.cz/kategorie/blog/feed');
                 if (!is_wp_error( $feed )) {
                     $items = $feed->get_items(0, 7);
                     if (! empty($items)) {

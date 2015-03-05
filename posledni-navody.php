@@ -1,19 +1,19 @@
-<h2>Poslední novinky</h2>
-<a href='http://wick.cz/'>
-<img src='http://podpora.wick.cz/wp-content/uploads/2015/03/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
+<h2>Poslední návody</h2>
+<a href='http://wick.cz/' target="_blank">
+<img src='http://wick.cz/plugin_img/podpora_online/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
 </a>
   
 <div class="postbox gdrgrid frontleft">
         <small style="float: right; margin-right:6px; margin-top:6px;">
-
+            <a target="_blank" href="http://wick.cz/navody/">Zobrazit vše</a> | <a href="http://wick.cz/kategorie/navody/feed/" target="_blank">RSS</a>
         </small>
-  <h3 class="hndle"><span>Poslední novinky</span></h3>
+  <h3 class="hndle"><span>Poslední návody z Wick.cz</span></h3>
         <div class="gdsrclear"></div>
     <div class="inside">
         <?php
 
         if ($options['news_feed_active'] == 0) {
-            $feed = fetch_feed('http://podpora.wick.cz/kategorie/blog/feed');
+            $feed = fetch_feed('http://wick.cz/kategorie/navody/feed/');
                 if (!is_wp_error( $feed )) {
                     $items = $feed->get_items(0, 7);
                     if (! empty($items)) {

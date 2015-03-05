@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wick.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.3
+Version: 2.4
 Author: Wick.cz
 Author URI: http://wick.cz
 License: GPLv2 or later
@@ -21,32 +21,41 @@ add_action('admin_menu', 'VytvorMenu');
 }
 
 function VytvorMenu(){
-add_menu_page('Aktuální novinky', 'Podpora online', 'activate_plugins', 'uvod', 'ObsahAktualniNovinky',plugin_dir_url( __FILE__ )."/design/podpora.png" );
+add_menu_page('Online podpora', 'Online podpora', 'activate_plugins', 'uvod', 'ObsahUvodPlugin',plugin_dir_url( __FILE__ )."/design/podpora.png" );
+add_submenu_page('uvod', 'Poslední návody', 'Poslední návody', 'activate_plugins', 'posledni-navody', 'ObsahPosledniNavody');
 add_submenu_page('uvod', 'Přeložené pluginy', 'Přeložené pluginy', 'activate_plugins', 'prelozene-pluginy', 'ObsahPrelozenepluginy');
 add_submenu_page('uvod', 'Přeložené šablony', 'Přeložené šablony', 'activate_plugins', 'prelozene-sablony', 'ObsahPrelozeneSablony');
-add_submenu_page('uvod', 'Kontatní formulář', 'Kontatní formulář', 'activate_plugins', 'kontaktni-formular', 'ObsahKontaktniFormular');
+add_submenu_page('uvod', 'Podpora', 'Podpora', 'activate_plugins', 'kontaktni-formular', 'ObsahKontaktniFormular');
 add_submenu_page('uvod', 'Žádost překladu', 'Žádost překladu', 'activate_plugins', 'zadost-prekladu', 'ObsahZadostPrekladu');
+add_submenu_page('uvod', 'Plánované překlady', 'Plánované překlady', 'activate_plugins', 'planovane-preklady', 'ObsahPlanovanePreklady');
 }
 
-// Obsah Aktualni novinky
-function ObsahAktualniNovinky() {
+// Obsah Posledni navody
+function ObsahUvodPlugin() {
 
 
-include 'posledni-novinky.php';
+include 'uvod.php';
+
+}
+// Obsah Posledni navody
+function ObsahPosledniNavody() {
+
+
+include 'posledni-navody.php';
 
 }
 // Obsah Prelozene pluginy
 function ObsahPrelozenepluginy() {
 
 
-include 'docasne/pripravujeme.php';
+include 'prelozene-pluginy.php';
 
 }
 // Obsah Prelozene šablony
-function ObsahObsahPrelozeneSablony() {
+function ObsahPrelozeneSablony() {
 
 
-include 'docasne/pripravujeme.php';
+include 'prelozene-sablony.php';
 
 }
 // Obsah Kontaktní fomulář
@@ -61,6 +70,13 @@ function ObsahZadostPrekladu() {
 
 
 include 'zadost-prekladu.php';
+
+}
+// Obsah Planovane překlady
+function ObsahPlanovanePreklady() {
+
+
+include 'planovane-preklady.php';
 
 }
 // spuštění
@@ -80,20 +96,15 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<h1><a href='http://wick.cz/'><img src='http://podpora.wick.cz/wp-content/uploads/2015/03/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' /></a><br />
+			<h1><a href='http://wick.cz/' target="_blank">
+<img src='http://wick.cz/plugin_img/podpora_online/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
+</a><br />
 		    Poslední změny			</h1>
 			<table width="100%" border="0" cellspacing="3" cellpadding="3">
 			  <tr>
-			    <td><p>1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...</p></td>
-			    <td><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Plugin - Widget -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-8881781121147805"
-     data-ad-slot="8064222011"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></td>
+			    <td><p>2.3.2015 Přidaní poslední návody z webu wick.cz<br />
+			      1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...</p></td>
+
           </table>
 		</div>
 		<?php

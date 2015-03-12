@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.1
-Stable tag: 2.5
+Stable tag: 2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,7 @@ Pluginy:
 
 Šablony:
 
+* Venedor - Ultimate WordPress + WooCommerce Theme
 
 
 == Installation ==
@@ -46,6 +47,9 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 2.6 = 
+* Překald šablony " Venedor - Ultimate WordPress + WooCommerce Theme "
 
 = 2.5 = 
 * Vytořena vlastní kategorie " Překaldy pluginu "

@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://wick.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.5
+Version: 2.6
 Author: Wick.cz
 Author URI: http://wick.cz
 License: GPLv2 or later
@@ -137,6 +137,7 @@ include 'pluginy/connections.php';
 add_action('admin_menu', 'sablony_menu');
 function sablony_menu(){
 add_menu_page('Žádost o překlad šablon', 'Překlady šablon', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
+add_submenu_page('preklady_sablony', 'Šablona Venedor', 'Šablona Venedor', 'activate_plugins', 'sablona-venedor', 'ObsahVenedorSablona');
 }
 
 // Obsah Překlady šablon
@@ -147,10 +148,10 @@ include 'sablony/preklady-sablon.php';
 
 }
 // Obsah Šablona Vantage
-function ObsahVantageSablona() {
+function ObsahVenedorSablona() {
 
 
-include 'sablony/vantage.php';
+include 'sablony/venedor.php';
 
 }
 // Obsah Šablona SupportPress

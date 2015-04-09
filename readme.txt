@@ -1,10 +1,10 @@
 === Podpora online ===
-Contributors: expres-web, wick.cz
+Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
-Tags: podpora, čeština, češtiny, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
+Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.1
-Stable tag: 2.6
+Stable tag: 2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,7 @@ Pluginy:
 * Subscribe2 čeština
 * WooCommerce čeština
 * Connections čeština
+* Sexy login Překlad
 
 Šablony:
 
@@ -37,8 +38,6 @@ Pluginy:
 1. Náhled na rozložení menu
 2. Náhled na rozbalené menu
 3. Náhled na obsah
-4. Náhled zobrazení slevového kupónu
-5. Poslední novinky
 
 == Frequently Asked Questions ==
 
@@ -48,15 +47,18 @@ Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
 
+= 2.7 = 
+* Překlad pluginu „Sexy Login"
+ 
 = 2.6 = 
-* Překald šablony " Venedor - Ultimate WordPress + WooCommerce Theme "
+* Překlad šablony „Venedor - Ultimate WordPress + WooCommerce Theme"
 
 = 2.5 = 
-* Vytořena vlastní kategorie " Překaldy pluginu "
-* Vytořena vlastní kategorie " Překaldy šablon "
+* Vytořena vlastní kategorie „Překaldy pluginu"
+* Vytořena vlastní kategorie „Překaldy šablon"
 
 = 2.4 = 
-* Přidaná kategorie "Plánované překlady"
+* Přidaná kategorie „Plánované překlady"
 
 = 2.3 = 
 * Možnost odeslat žádost na překald

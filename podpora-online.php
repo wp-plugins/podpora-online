@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Podpora online
-Plugin URI: http://wick.cz
+Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.6
-Author: Wick.cz
-Author URI: http://wick.cz
+Version: 2.7
+Author: Expres-Web.cz
+Author URI: http://expres-web.cz
 License: GPLv2 or later
 */
 
@@ -87,6 +87,7 @@ add_submenu_page('preklady_pluginu', 'Shortcodes Ultimate čeština', 'Shortcode
 add_submenu_page('preklady_pluginu', 'Subscribe2 čeština', 'Subscribe2', 'activate_plugins', 'Subscribe2-preklad', 'ObsahSubscribe2');
 add_submenu_page('preklady_pluginu', 'WooCommerce čeština', 'WooCommerce', 'activate_plugins', 'WooCommerce-preklad', 'ObsahWooCommerce');
 add_submenu_page('preklady_pluginu', 'Connections čeština', 'Connections', 'activate_plugins', 'Connections-preklad', 'ObsahConnections');
+add_submenu_page('preklady_pluginu', 'Sexy Login čeština', 'Sexy Login', 'activate_plugins', 'sexy-preklad', 'ObsahSexy');
 }
 
 // Obsah Překlady pluginů
@@ -131,12 +132,19 @@ function ObsahConnections() {
 include 'pluginy/connections.php';
 
 }
+// Obsah Sexy Login
+function ObsahSexy() {
+
+
+include 'pluginy/sexy-login.php';
+
+}
 
 	/**********  Vytvoreni menu sablony **********/
 
 add_action('admin_menu', 'sablony_menu');
 function sablony_menu(){
-add_menu_page('Žádost o překlad šablon', 'Překlady šablon', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
+add_menu_page('Žádost o překlad šablon', 'Přeložené šablony', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
 add_submenu_page('preklady_sablony', 'Šablona Venedor', 'Šablona Venedor', 'activate_plugins', 'sablona-venedor', 'ObsahVenedorSablona');
 }
 
@@ -152,13 +160,6 @@ function ObsahVenedorSablona() {
 
 
 include 'sablony/venedor.php';
-
-}
-// Obsah Šablona SupportPress
-function ObsahSupportPressSablona() {
-
-
-include 'sablony/supportpress.php';
 
 }
 // spuštění
@@ -178,10 +179,10 @@ PridatMenu();
 	function PO_ZobrazWidget(){
 		?>
 		<div class="podpora-online-widget">
-			<h1><a href='http://wick.cz/' target="_blank">
-<img src='http://wick.cz/plugin_img/podpora_online/logo.png' alt='Wick.cz' title='Tvorba stránek a podpora pro WordPress' />
+			<a href='http://expres-web.cz' target="_blank">
+<img src='http://expres-web.cz/wp-content/uploads/2015/04/logo_small.png' alt='Expres-Web.cz' title='Tvorba stránek a podpora pro WordPress' />
 </a><br />
-		    Poslední změny			</h1>
+		    <h1>Poslední změny</h1>
 			<table width="100%" border="0" cellspacing="3" cellpadding="3">
 			  <tr>
 			    <td><p>2.3.2015 Přidaní poslední návody z webu wick.cz<br />

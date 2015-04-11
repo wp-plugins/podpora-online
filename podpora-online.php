@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.7
+Version: 2.8
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
@@ -146,6 +146,7 @@ add_action('admin_menu', 'sablony_menu');
 function sablony_menu(){
 add_menu_page('Žádost o překlad šablon', 'Přeložené šablony', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
 add_submenu_page('preklady_sablony', 'Šablona Venedor', 'Šablona Venedor', 'activate_plugins', 'sablona-venedor', 'ObsahVenedorSablona');
+add_submenu_page('preklady_sablony', 'Šablona BeTheme', 'Šablona BeTheme', 'activate_plugins', 'sablona-betheme', 'ObsahBeThemeSablona');
 }
 
 // Obsah Překlady šablon
@@ -160,6 +161,13 @@ function ObsahVenedorSablona() {
 
 
 include 'sablony/venedor.php';
+
+}
+// Obsah Šablona BeTheme
+function ObsahBeThemeSablona() {
+
+
+include 'sablony/betheme.php';
 
 }
 // spuštění
@@ -186,7 +194,9 @@ PridatMenu();
 			<table width="100%" border="0" cellspacing="3" cellpadding="3">
 			  <tr>
 			    <td><p>2.3.2015 Přidaní poslední návody z webu wick.cz<br />
-			      1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...</p></td>
+			      1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...<br />
+			      11.4.2015 Připravujeme pro Vás automaticke aktualizace překladu pro Vaše šablony a pluginy. Veškeré nastavení a zalohy budou automaticky smazány. Doporučujeme aby jste si přečetli více o tomto
+			    nastavení. Jedná se hlavně o uživatelé, kteří vyuzžívají Premium Šablony ( placené šablony )</p></td>
 
           </table>
 		</div>

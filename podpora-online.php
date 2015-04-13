@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.8
+Version: 2.9
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
@@ -147,6 +147,7 @@ function sablony_menu(){
 add_menu_page('Žádost o překlad šablon', 'Přeložené šablony', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon',plugin_dir_url( __FILE__ )."/design/template.png" );
 add_submenu_page('preklady_sablony', 'Šablona Venedor', 'Šablona Venedor', 'activate_plugins', 'sablona-venedor', 'ObsahVenedorSablona');
 add_submenu_page('preklady_sablony', 'Šablona BeTheme', 'Šablona BeTheme', 'activate_plugins', 'sablona-betheme', 'ObsahBeThemeSablona');
+add_submenu_page('preklady_sablony', 'Šablona Multinews', 'Šablona Multinews', 'activate_plugins', 'sablona-multinews', 'ObsahMultinewsSablona');
 }
 
 // Obsah Překlady šablon
@@ -168,6 +169,13 @@ function ObsahBeThemeSablona() {
 
 
 include 'sablony/betheme.php';
+
+}
+// Obsah Šablona Multinews
+function ObsahMultinewsSablona() {
+
+
+include 'sablony/multinews.php';
 
 }
 // spuštění

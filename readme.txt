@@ -3,8 +3,8 @@ Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
-Tested up to: 4.1
-Stable tag: 2.8
+Tested up to: 4.2
+Stable tag: 2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,7 @@ Pluginy:
 
 * Venedor - Ultimate WordPress + WooCommerce Theme
 * BeTheme - Responsive Multi-Purpose WordPress Theme
+* Multinews - Multi-purpose Wordpress News,Magazine
 
 
 == Installation ==
@@ -47,6 +48,9 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 2.9 = 
+* Překlad šablony „Multinews - Multi-purpose Wordpress News,Magazine"
 
 = 2.8 = 
 * Překlad šablony „BeTheme - Responsive Multi-Purpose WordPress Theme" 

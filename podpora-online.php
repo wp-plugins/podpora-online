@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 2.9
+Version: 3.0
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
@@ -88,6 +88,7 @@ add_submenu_page('preklady_pluginu', 'Subscribe2 čeština', 'Subscribe2', 'acti
 add_submenu_page('preklady_pluginu', 'WooCommerce čeština', 'WooCommerce', 'activate_plugins', 'WooCommerce-preklad', 'ObsahWooCommerce');
 add_submenu_page('preklady_pluginu', 'Connections čeština', 'Connections', 'activate_plugins', 'Connections-preklad', 'ObsahConnections');
 add_submenu_page('preklady_pluginu', 'Sexy Login čeština', 'Sexy Login', 'activate_plugins', 'sexy-preklad', 'ObsahSexy');
+add_submenu_page('preklady_pluginu', 'WPtouch čeština', 'WPtouch', 'activate_plugins', 'wptouch-preklad', 'ObsahWPtouch');
 }
 
 // Obsah Překlady pluginů
@@ -137,6 +138,13 @@ function ObsahSexy() {
 
 
 include 'pluginy/sexy-login.php';
+
+}
+// Obsah WPtouch
+function ObsahWPtouch() {
+
+
+include 'pluginy/wptouch.php';
 
 }
 

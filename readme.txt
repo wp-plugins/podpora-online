@@ -16,19 +16,22 @@ Naleznete zde již přeložené:
 
 Pluginy:
 
-* Čeština buddypress
-* Shortcodes Ultimate překlad
-* Subscribe2 čeština
-* WooCommerce čeština
-* Connections čeština
-* Sexy login Překlad
-* WPtouch překlad (kompletní)
+* Čeština buddypress (WP plugin)
+* Shortcodes Ultimate překlad (WP plugin)
+* Subscribe2 čeština (WP plugin)
+* WooCommerce čeština (WP plugin)
+* Connections čeština (WP plugin)
+* Sexy login Překlad (WP plugin)
+* WPtouch překlad (kompletní) (WP plugin)
+* WordPress SEO by Yoast (bude přidáno ve verzi 3.1)
+* WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.1)
+* Google XML Sitemaps (bude přidáno ve verzi 3.1) 
 
 Šablony:
 
-* Venedor - Ultimate WordPress + WooCommerce Theme
-* BeTheme - Responsive Multi-Purpose WordPress Theme
-* Multinews - Multi-purpose Wordpress News,Magazine
+* Venedor - Ultimate WordPress + WooCommerce Theme (GitHub plugin)
+* BeTheme - Responsive Multi-Purpose WordPress Theme (GitHub plugin)
+* Multinews - Multi-purpose Wordpress News,Magazine (GitHub plugin)
 
 
 == Installation ==

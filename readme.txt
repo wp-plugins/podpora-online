@@ -26,6 +26,7 @@ Pluginy:
 * WordPress SEO by Yoast (bude přidáno ve verzi 3.1)
 * WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.1)
 * Google XML Sitemaps (bude přidáno ve verzi 3.1) 
+* Google Analytics by Yoast (bude přidáno ve verzi 3.1)
 
 Šablony:
 

@@ -23,7 +23,7 @@ Pluginy:
 * Connections čeština (WP plugin)
 * Sexy login Překlad (WP plugin)
 * WPtouch překlad (kompletní) (WP plugin)
-* WordPress SEO by Yoast (bude přidáno ve verzi 3.2)
+* Google Analytics by Yoast (bude přidáno ve verzi 3.2)
 * WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.2)
 * Google XML Sitemaps (bude přidáno ve verzi 3.2) 
 * Google Analytics by Yoast (bude přidáno ve verzi 3.2)

@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 3.0
+Version: 3.1
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
@@ -209,10 +209,7 @@ PridatMenu();
 		    <h1>Poslední změny</h1>
 			<table width="100%" border="0" cellspacing="3" cellpadding="3">
 			  <tr>
-			    <td><p>2.3.2015 Přidaní poslední návody z webu wick.cz<br />
-			      1.3.2015 Nyní můžete požádat o překaldy a kontaktovat nás ...<br />
-			      11.4.2015 Připravujeme pro Vás automaticke aktualizace překladu pro Vaše šablony a pluginy. Veškeré nastavení a zalohy budou automaticky smazány. Doporučujeme aby jste si přečetli více o tomto
-			    nastavení. Jedná se hlavně o uživatelé, kteří vyuzžívají Premium Šablony ( placené šablony )</p></td>
+			    <td><p>25.4.2015 Připravujeme pro Vás plugin České pluginy a České šablony</p></td>
 
           </table>
 		</div>

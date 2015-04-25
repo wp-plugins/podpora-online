@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.2
-Stable tag: 3.0
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,10 +23,10 @@ Pluginy:
 * Connections čeština (WP plugin)
 * Sexy login Překlad (WP plugin)
 * WPtouch překlad (kompletní) (WP plugin)
-* WordPress SEO by Yoast (bude přidáno ve verzi 3.1)
-* WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.1)
-* Google XML Sitemaps (bude přidáno ve verzi 3.1) 
-* Google Analytics by Yoast (bude přidáno ve verzi 3.1)
+* WordPress SEO by Yoast (bude přidáno ve verzi 3.2)
+* WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.2)
+* Google XML Sitemaps (bude přidáno ve verzi 3.2) 
+* Google Analytics by Yoast (bude přidáno ve verzi 3.2)
 
 Šablony:
 
@@ -53,6 +53,9 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 3.1 = 
+* Bug pro načitání podpory
 
 = 3.0 = 
 * Kompletní překlad pluginu „WPtouch"

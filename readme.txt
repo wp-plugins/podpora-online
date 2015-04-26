@@ -12,6 +12,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
 
+V tomto pluginu naleznete:
+
+* Kontaktní formulář pro podporu
+* Poslední návody
+* WordPpress video a mluvené návody (od verze 3.2)
+* WordPress přeložené pluginy
+* WordPress přeložené šablony
+
 Naleznete zde již přeložené:
 
 Pluginy:
@@ -26,7 +34,7 @@ Pluginy:
 * Google Analytics by Yoast (bude přidáno ve verzi 3.2)
 * WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.2)
 * Google XML Sitemaps (bude přidáno ve verzi 3.2) 
-* Google Analytics by Yoast (bude přidáno ve verzi 3.2)
+* SEO Analytics by Yoast (bude přidáno ve verzi 3.3)
 
 Šablony:
 

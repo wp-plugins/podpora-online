@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.2
-Stable tag: 3.1
+Stable tag: 3.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,23 +12,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
 
+= V tomto pluginu naleznete: =
+
+* Kontaktní formulář pro podporu
+* Poslední návody
+* WordPpress video a mluvené návody
+* WordPress přeložené pluginy (nyní je to jako samostatný plugin odkaz ke stažení naleznete níže)
+* WordPress přeložené šablony
+
 Naleznete zde již přeložené:
 
-Pluginy:
+= Pluginy: =
 
-* Čeština buddypress (WP plugin)
-* Shortcodes Ultimate překlad (WP plugin)
-* Subscribe2 čeština (WP plugin)
-* WooCommerce čeština (WP plugin)
-* Connections čeština (WP plugin)
-* Sexy login Překlad (WP plugin)
-* WPtouch překlad (kompletní) (WP plugin)
-* Google Analytics by Yoast (bude přidáno ve verzi 3.2)
-* WooCommerce Product Archive Customiser (bude přidáno ve verzi 3.2)
-* Google XML Sitemaps (bude přidáno ve verzi 3.2) 
-* Google Analytics by Yoast (bude přidáno ve verzi 3.2)
+Samostatný plugin si stáhněte <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip">zde</a>
 
-Šablony:
+= Šablony: =
 
 * Venedor - Ultimate WordPress + WooCommerce Theme (GitHub plugin)
 * BeTheme - Responsive Multi-Purpose WordPress Theme (GitHub plugin)
@@ -42,10 +40,10 @@ Pluginy:
 
 == Screenshots ==
 
-1. Náhled na rozložení menu
-2. Náhled na rozbalené menu
-3. Náhled na obsah
-
+1. **Náhled na rozložení menu** - Zobrazení rozložení menu v admnistraci WordPress
+2. **Náhled na rozbalené menu** - Zobrazení rozbalené menu v admnistraci WordPress
+3. **Náhled na obsah** - Náhled obsahu
+4. **Náhled menu** - Náhled menu v administraci
 == Frequently Asked Questions ==
 
 Našel jsem chybu, co mám dělat?
@@ -53,6 +51,10 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 3.1.1 = 
+* Ostranení obsahu přeložených pluginu
+* Přidány návody
 
 = 3.1 = 
 * Bug pro načitání podpory

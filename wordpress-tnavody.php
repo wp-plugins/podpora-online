@@ -1,13 +1,10 @@
-<h2>Poslední návody</h2>
-<a href='http://expres-web.cz' target="_blank">
-<img src='http://expres-web.cz/wp-content/uploads/2015/04/logo_small.png' alt='Expres-Web.cz' title='Tvorba stránek a podpora pro WordPress' />
-</a>
+<h2>Wordpress textové návody</h2>
   
 <div class="postbox gdrgrid frontleft">
         <small style="float: right; margin-right:6px; margin-top:6px;">
             <a target="_blank" href="http://expres-web.cz/kategorie/navody/">Zobrazit vše</a> | <a href="http://expres-web.cz/kategorie/navody/feed/" target="_blank">RSS</a>
         </small>
-  <h3 class="hndle"><span>Poslední návody z Expres-Web.cz</span></h3>
+  <h3 class="hndle"><span>Posledních 20 WP návodů</span></h3>
         <div class="gdsrclear"></div>
     <div class="inside">
         <?php
@@ -15,7 +12,7 @@
         if ($options['news_feed_active'] == 0) {
             $feed = fetch_feed('http://expres-web.cz/kategorie/navody/feed/');
                 if (!is_wp_error( $feed )) {
-                    $items = $feed->get_items(0, 7);
+                    $items = $feed->get_items(0, 20);
                     if (! empty($items)) {
                         echo '<ul>';
                         foreach ($items as $item) {

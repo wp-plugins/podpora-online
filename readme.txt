@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.2
-Stable tag: 3.1.1
+Stable tag: 3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,14 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a
 
 = Pluginy: =
 
+* Čeština buddypress (WP plugin)
+* Shortcodes Ultimate překlad (WP plugin)
+* Subscribe2 čeština (WP plugin)
+* WooCommerce čeština (WP plugin)
+* Connections čeština (WP plugin)
+* Sexy login Překlad (WP plugin)
+* WPtouch překlad (kompletní) (WP plugin)
+
 Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
 
 = Šablony: =
@@ -31,6 +39,8 @@ Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zd
 * Venedor - Ultimate WordPress + WooCommerce Theme (GitHub plugin)
 * BeTheme - Responsive Multi-Purpose WordPress Theme (GitHub plugin)
 * Multinews - Multi-purpose Wordpress News,Magazine (GitHub plugin)
+ 
+Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25064">zde</a>
 
 
 == Installation ==
@@ -40,10 +50,12 @@ Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zd
 
 == Screenshots ==
 
-1. **Náhled na rozložení menu** - Zobrazení rozložení menu v admnistraci WordPress
-2. **Náhled na rozbalené menu** - Zobrazení rozbalené menu v admnistraci WordPress
-3. **Náhled na obsah** - Náhled obsahu
-4. **Náhled menu** - Náhled menu v administraci
+1. **Náhled na rozložení menu**
+2. **Náhled na obsah podpora**
+4. **Náhled na obsah žádosti o překlad**
+5. **Náhled na obsah textové návody**
+6. **Náhled na obsah video návody**                                      
+
 == Frequently Asked Questions ==
 
 Našel jsem chybu, co mám dělat?
@@ -51,6 +63,13 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 3.2 = 
+* Úprava stylu
+* Nové ikonky pluginu
+* Pridány textové a video návody
+* Přidán kontaktní formulář
+* Přidány žádosti o překlady
 
 = 3.1.1 = 
 * Ostranění obsahu přeložených pluginu
@@ -138,6 +157,12 @@ Pokud naleznete chybu, zdělte nám to prosím.
 = 1.0 = 
 * Uvolnění pluginu.
 
+== Upgrade Notice ==
+
+= 3.2 =
+od verze 3.2 je již možné posílat žádosti o překlad šablon a pluginu. Nalznete zde textové a video návody.
+
 == Dostupné pluginy ==
 
-Již brzy ....
+* České pluginy - Naleznete zde český přeložene pluginy. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
+* České šablony - Naleznete zde český přeložene šablony. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://expres-web.cz/?wpdmdl=25064">zde</a>

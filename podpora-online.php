@@ -3,7 +3,7 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 3.1.1
+Version: 3.2
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
@@ -21,25 +21,9 @@ add_action('admin_menu', 'VytvorMenu');
 }
 
 function VytvorMenu(){
-add_menu_page('Online podpora', 'Online podpora', 'activate_plugins', 'uvod', 'ObsahUvodPlugin',plugins_url( 'podpora-online/design/podpora.png' ), 81 );
-add_submenu_page('uvod', 'Poslední návody', 'Poslední návody', 'activate_plugins', 'posledni-navody', 'ObsahPosledniNavody');
-add_submenu_page('uvod', 'Podpora', 'Podpora', 'activate_plugins', 'kontaktni-formular', 'ObsahKontaktniFormular');
+add_menu_page('Online podpora', 'Online podpora', 'activate_plugins', 'uvod', 'ObsahKontaktniFormular',plugins_url( 'podpora-online/design/podpora.png' ), 81 );
 }
 
-// Obsah Posledni navody
-function ObsahUvodPlugin() {
-
-
-include 'uvod.php';
-
-}
-// Obsah Posledni navody
-function ObsahPosledniNavody() {
-
-
-include 'posledni-navody.php';
-
-}
 // Obsah Kontaktní fomulář
 function ObsahKontaktniFormular() {
 
@@ -48,71 +32,62 @@ include 'kontaktni-formular.php';
 
 }
 
-	/**********  Vytvoreni menu pluginy **********/
+	/**********  Vytvoreni menu preklady **********/
 
-add_action('admin_menu', 'pluginy_menu');
-function pluginy_menu(){
-add_menu_page('Žádost o překlad pluginu', 'Přeložené pluginy', 'activate_plugins', 'preklady_pluginu', 'ObsahPrekladyPluginu',plugins_url( 'podpora-online/design/plugin.png' ), '81.1' );
+add_action('admin_menu', 'preklady_menu');
+function preklady_menu(){
+add_menu_page('Překlady šablon a pluginu', 'Překlady', 'activate_plugins', 'preklady_vse', 'ObsahPreklady',plugins_url( 'podpora-online/design/preklady.png' ), '81.1' );
 }
 
-// Obsah Překlady pluginů
-function ObsahPrekladyPluginu() {
+// Obsah Preklady
+function ObsahPreklady() {
 
 
-include 'prelozene-pluginy.php';
-
-}
-
-	/**********  Vytvoreni menu sablony **********/
-
-add_action('admin_menu', 'sablony_menu');
-function sablony_menu(){
-add_menu_page( 'Žádost o překlad šablon', 'Přeložené šablony', 'activate_plugins', 'preklady_sablony', 'ObsahPrekladySablon', plugins_url( 'podpora-online/design/template.png' ), '81.2' );
-add_submenu_page('preklady_sablony', 'Šablona Venedor', 'Šablona Venedor', 'activate_plugins', 'sablona-venedor', 'ObsahVenedorSablona');
-add_submenu_page('preklady_sablony', 'Šablona BeTheme', 'Šablona BeTheme', 'activate_plugins', 'sablona-betheme', 'ObsahBeThemeSablona');
-add_submenu_page('preklady_sablony', 'Šablona Multinews', 'Šablona Multinews', 'activate_plugins', 'sablona-multinews', 'ObsahMultinewsSablona');
-}
-
-// Obsah Překlady šablon
-function ObsahPrekladySablon() {
-
-
-include 'sablony/preklady-sablon.php';
+include 'preklady.php';
 
 }
-// Obsah Šablona Vantage
-function ObsahVenedorSablona() {
+
+	/**********  Vytvoreni menu zadost o preklad **********/
+
+add_action('admin_menu', 'zpreklad_menu');
+function zpreklad_menu(){
+add_menu_page('Žádost o překlad', 'Žádost o překlad', 'activate_plugins', 'zadost_preklad', 'ObsahZPreklad',plugins_url( 'podpora-online/design/zadost.png' ), '81.2' );
+}
+
+// Obsah Zadost prekladu
+function ObsahZPreklad() {
 
 
-include 'sablony/venedor.php';
+include 'zadost.php';
 
 }
-// Obsah Šablona BeTheme
-function ObsahBeThemeSablona() {
+	/**********  Vytvoreni menu Textové návody návody **********/
 
-
-include 'sablony/betheme.php';
-
-}
-// Obsah Šablona Multinews
-function ObsahMultinewsSablona() {
-
-
-include 'sablony/multinews.php';
-
-}
-	/**********  Vytvoreni menu návody **********/
-
-add_action('admin_menu', 'navody_menu');
-function navody_menu(){
-add_menu_page('WordPress návody', 'WordPress návody', 'activate_plugins', 'wordpress_navody', 'ObsahWordPressNavody',plugins_url( 'podpora-online/design/navody.png' ), '81.3' );
+add_action('admin_menu', 'tnavody_menu');
+function tnavody_menu(){
+add_menu_page('WordPress Obrázky/Text návody', 'Textové návody', 'activate_plugins', 'wordpress_tnavody', 'ObsahWordPressTNavody',plugins_url( 'podpora-online/design/tnavody.png' ), '81.3' );
 }
 
 // Obsah Video návody
-function ObsahWordPressNavody() {
+function ObsahWordPressTNavody() {
 
 
-include 'wordpress-navody.php';
+include 'wordpress-tnavody.php';
+
+}
+
+	/**********  Vytvoreni menu video návody **********/
+
+add_action('admin_menu', 'vnavody_menu');
+function vnavody_menu(){
+add_menu_page('WordPress Video návody', 'Video návody', 'activate_plugins', 'wordpress_vnavody', 'ObsahWordPressVNavody',plugins_url( 'podpora-online/design/vnavody.png' ), '81.4' );
+}
+
+// Obsah Video návody
+function ObsahWordPressVNavody() {
+
+
+include 'wordpress-vnavody.php';
 
 }
 

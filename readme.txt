@@ -24,7 +24,7 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a
 
 = Pluginy: =
 
-Samostatný plugin si stáhněte <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip">zde</a>
+Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
 
 = Šablony: =
 

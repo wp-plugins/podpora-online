@@ -20,11 +20,11 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a
 * WordPress přeložené pluginy (nyní je to jako samostatný plugin odkaz ke stažení naleznete níže)
 * WordPress přeložené šablony
 
-Naleznete zde již přeložené:
+**Naleznete zde již přeložené:**
 
 = Pluginy: =
 
-Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
+Samostatný plugin si stáhněte <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip">zde</a>
 
 = Šablony: =
 
@@ -53,7 +53,7 @@ Pokud naleznete chybu, zdělte nám to prosím.
 == Changelog ==
 
 = 3.1.1 = 
-* Ostranení obsahu přeložených pluginu
+* Ostranění obsahu přeložených pluginu
 * Přidány návody
 
 = 3.1 = 
@@ -137,3 +137,7 @@ Pokud naleznete chybu, zdělte nám to prosím.
 
 = 1.0 = 
 * Uvolnění pluginu.
+
+== Dostupné pluginy ==
+
+Již brzy ....

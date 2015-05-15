@@ -3,11 +3,21 @@
 Plugin Name: Podpora online
 Plugin URI: http://expres-web.cz
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 3.2
+Version: 3.2.1
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later
 */
+
+add_action( 'muplugins_loaded', 'my_plugin_override' );
+
+function my_plugin_override() {
+    // your code here
+}
+
+
+
+require_once dirname( __FILE__ ) . '/barvy.php';
 
 if(!is_admin()){
     return;
@@ -21,7 +31,7 @@ add_action('admin_menu', 'VytvorMenu');
 }
 
 function VytvorMenu(){
-add_menu_page('Online podpora', 'Online podpora', 'activate_plugins', 'uvod', 'ObsahKontaktniFormular',plugins_url( 'podpora-online/design/podpora.png' ), 81 );
+add_menu_page('Online podpora', 'Online podpora', 'activate_plugins', 'uvod', 'ObsahKontaktniFormular',plugins_url( 'podpora-online/design/podpora.png' ), 82 );
 }
 
 // Obsah Kontaktní fomulář
@@ -36,7 +46,7 @@ include 'kontaktni-formular.php';
 
 add_action('admin_menu', 'preklady_menu');
 function preklady_menu(){
-add_menu_page('Překlady šablon a pluginu', 'Překlady', 'activate_plugins', 'preklady_vse', 'ObsahPreklady',plugins_url( 'podpora-online/design/preklady.png' ), '81.1' );
+add_menu_page('Překlady šablon a pluginu', 'Překlady', 'activate_plugins', 'preklady_vse', 'ObsahPreklady',plugins_url( 'podpora-online/design/preklady.png' ), '82.1' );
 }
 
 // Obsah Preklady
@@ -51,7 +61,7 @@ include 'preklady.php';
 
 add_action('admin_menu', 'zpreklad_menu');
 function zpreklad_menu(){
-add_menu_page('Žádost o překlad', 'Žádost o překlad', 'activate_plugins', 'zadost_preklad', 'ObsahZPreklad',plugins_url( 'podpora-online/design/zadost.png' ), '81.2' );
+add_menu_page('Žádost o překlad', 'Žádost o překlad', 'activate_plugins', 'zadost_preklad', 'ObsahZPreklad',plugins_url( 'podpora-online/design/zadost.png' ), '82.2' );
 }
 
 // Obsah Zadost prekladu
@@ -65,7 +75,7 @@ include 'zadost.php';
 
 add_action('admin_menu', 'tnavody_menu');
 function tnavody_menu(){
-add_menu_page('WordPress Obrázky/Text návody', 'Textové návody', 'activate_plugins', 'wordpress_tnavody', 'ObsahWordPressTNavody',plugins_url( 'podpora-online/design/tnavody.png' ), '81.3' );
+add_menu_page('WordPress Obrázky/Text návody', 'Textové návody', 'activate_plugins', 'wordpress_tnavody', 'ObsahWordPressTNavody',plugins_url( 'podpora-online/design/tnavody.png' ), '82.3' );
 }
 
 // Obsah Video návody
@@ -80,7 +90,7 @@ include 'wordpress-tnavody.php';
 
 add_action('admin_menu', 'vnavody_menu');
 function vnavody_menu(){
-add_menu_page('WordPress Video návody', 'Video návody', 'activate_plugins', 'wordpress_vnavody', 'ObsahWordPressVNavody',plugins_url( 'podpora-online/design/vnavody.png' ), '81.4' );
+add_menu_page('WordPress Video návody', 'Video návody', 'activate_plugins', 'wordpress_vnavody', 'ObsahWordPressVNavody',plugins_url( 'podpora-online/design/vnavody.png' ), '82.4' );
 }
 
 // Obsah Video návody

@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
+Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon, přidá barevné odlišení článků a mnoho dalšího.
 
 = V tomto pluginu naleznete: =
 
@@ -54,7 +54,8 @@ Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25064">zd
 2. **Náhled na obsah podpora**
 4. **Náhled na obsah žádosti o překlad**
 5. **Náhled na obsah textové návody**
-6. **Náhled na obsah video návody**                                      
+6. **Náhled na obsah video návody**
+7. **Barevné odlišení článků**                                      
 
 == Frequently Asked Questions ==
 
@@ -66,6 +67,7 @@ Pokud naleznete chybu, zdělte nám to prosím.
 
 = 3.2.1 = 
 * oprava konfliktu s pluginem XML Feed pro Heureka.cz od Barnone.cz <a href="http://barnone.cz/obchod/heureka-cz-xml-feed-pro-woocommerce/">plugin zde</a>
+* Barevné odlišení článků v administraci (Publikovaný, Soukromé, Čekající na schválení, Chráněno heslem, Koncept, Plánované publikování )
 
 = 3.2 = 
 * Úprava stylu

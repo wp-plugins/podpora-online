@@ -1,10 +1,10 @@
 === Podpora online ===
-Contributors: expres-web
+Contributors: expres-web, wptranslations.eu
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0
 Tested up to: 4.2
-Stable tag: 3.2.1
+Stable tag: 3.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,7 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon, 
 * Sexy login Překlad (WP plugin)
 * WPtouch překlad (kompletní) (WP plugin)
 
-Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
+Samostatný plugin si stáhněte <a href="http://wptranslations.eu/ceske-pluginy/">zde</a>
 
 = Šablony: =
 
@@ -40,7 +40,10 @@ Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25045">zd
 * BeTheme - Responsive Multi-Purpose WordPress Theme (GitHub plugin)
 * Multinews - Multi-purpose Wordpress News,Magazine (GitHub plugin)
  
-Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25064">zde</a>
+Samostatný plugin si stáhněte <a href="http://wptranslations.eu/ceske-sablony/">zde</a>
+
+> <strong>Nový Web</strong><br>
+> Nyní jsme spustili v beta verzi nový web [wptranslations.eu](http://wptranslations.eu/). Kde naleznete další přeložené pluginy, šablony. Postupy a mnoho dalšího. Včetně žádostí.
 
 
 == Installation ==
@@ -54,8 +57,7 @@ Samostatný plugin si stáhněte <a href="http://expres-web.cz/?wpdmdl=25064">zd
 2. **Náhled na obsah podpora**
 4. **Náhled na obsah žádosti o překlad**
 5. **Náhled na obsah textové návody**
-6. **Náhled na obsah video návody**
-7. **Barevné odlišení článků**                                      
+6. **Náhled na obsah video návody**                                      
 
 == Frequently Asked Questions ==
 
@@ -64,6 +66,10 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím.
 
 == Changelog ==
+
+= 3.2.2 = 
+* Nový formulář pro žádost o překlady
+* Překlady pluginu ke stažení
 
 = 3.2.1 = 
 * oprava konfliktu s pluginem XML Feed pro Heureka.cz od Barnone.cz <a href="http://barnone.cz/obchod/heureka-cz-xml-feed-pro-woocommerce/">plugin zde</a>
@@ -169,5 +175,5 @@ od verze 3.2 je již možné posílat žádosti o překlad šablon a pluginu. Na
 
 == Dostupné pluginy ==
 
-* České pluginy - Naleznete zde český přeložene pluginy. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://expres-web.cz/?wpdmdl=25045">zde</a>
-* České šablony - Naleznete zde český přeložene šablony. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://expres-web.cz/?wpdmdl=25064">zde</a>
+* České pluginy - Naleznete zde český přeložene pluginy. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://wptranslations.eu/ceske-pluginy/">zde</a>
+* České šablony - Naleznete zde český přeložene šablony. Napište si o překlad a mnoho dalšího. Plugin stáhnete <a href="http://wptranslations.eu/ceske-sablony/">zde</a>

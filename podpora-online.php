@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Podpora online
-Plugin URI: http://expres-web.cz
+Plugin URI: http://wptranslations.eu/podpora-online/
 Description: Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon a mnoho dalšího.
-Version: 3.2.1
+Version: 3.2.2
 Author: Expres-Web.cz
 Author URI: http://expres-web.cz
 License: GPLv2 or later

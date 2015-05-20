@@ -2,7 +2,7 @@
 <p><a href="http://wptranslations.eu/" target="_blank"><?php
 echo '<img src="' . plugins_url( 'img/logo_preklady.png', __FILE__ ) . '" > ';
 ?></a></p>
-<p>Pro zobrazení informací a stažení pluginu a šablon, klikněte na Stáhnout. Vše se otevře v novém okně.</p>
+<p>Pro zobrazení informací a stažení pluginu, klikněte na Stáhnout. Vše se otevře v novém okně. </p>
 <table width="100%" border="0" cellspacing="3" cellpadding="3">
   <tr>
     <td><table width="100%" border="0" align="left" cellpadding="3" cellspacing="25">
@@ -46,5 +46,3 @@ echo '<img src="' . plugins_url( 'img/zadost.png', __FILE__ ) . '" > ';
     </table></td>
   </tr>
 </table>
-<h1>Přeložené šablony </h1>
-<p>Připravuje</p>

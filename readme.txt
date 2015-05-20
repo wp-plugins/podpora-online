@@ -1,5 +1,5 @@
 === Podpora online ===
-Contributors: expres-web, wptranslations.eu
+Contributors: expres-web, wptranslations
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: podpora, čeština, češtiny, sexy login, překlad, překlady, česká podpora, wordpress, buddypress, Shortcodes Ultimate, WooCommerce, Subscribe2, Connections, Sidebar Login, CubePoints, CubePoints, WPtouch, WPtouch čeština, GD Star Rating, GD Star Rating čeština
 Requires at least: 3.0.0

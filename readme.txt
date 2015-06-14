@@ -32,7 +32,7 @@ Online podpora pro českou komunitu. Naleznete zde překlady pluginů, šablon, 
 * Sexy login Překlad (WP plugin)
 * WPtouch překlad (kompletní) (WP plugin)
 
-Samostatný plugin si stáhněte <a href="http://wptranslations.eu/ceske-pluginy/">zde</a>
+Samostatný plugin si stáhněte Již brzy
 
 = Šablony: =
 
@@ -40,7 +40,7 @@ Samostatný plugin si stáhněte <a href="http://wptranslations.eu/ceske-pluginy
 * BeTheme - Responsive Multi-Purpose WordPress Theme (GitHub plugin)
 * Multinews - Multi-purpose Wordpress News,Magazine (GitHub plugin)
  
-Samostatný plugin si stáhněte <a href="http://wptranslations.eu/ceske-sablony/">zde</a>
+Samostatný plugin si stáhněte  Již brzy
 
 > <strong>Nový Web</strong><br>
 > Nyní jsme spustili v beta verzi nový web [wptranslations.eu](http://wptranslations.eu/). Kde naleznete další přeložené pluginy, šablony. Postupy a mnoho dalšího. Včetně žádostí.
